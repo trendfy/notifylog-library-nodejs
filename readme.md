@@ -39,4 +39,4 @@ notifyLog.publish({
 If you need help, please send an email to hello@notifylog.com.
 
 #### Create an account
-To create an account on the NotifyLog platform, visit https://notifylog.com.br.
+To create an account on the NotifyLog platform, visit https://notifylog.com.
