@@ -2,26 +2,26 @@
 
 A library for sending notifications using the NotifyLog API.
 
-**Installation**
+####  Installation
 To install the library, run the following command:
 
 ```javascript
 npm  install  notifylog
 ```
 
-**Usage**
+####  Usage
 To use the library, import the NotifyLog class and create an instance with your API key:
 
 ```javascript
 import { NotifyLog } from  "notifylog";
 
-const  notifyLog  =  new  NotifyLog("TOKEN");
+const  notifyLog  =  new  NotifyLog("YOUR_TOKEN_HERE");
 ```
 
 Then, you can use the notifyEvent method to send a notification:
 
 ```javascript
-notifyLog.notifyEvent({
+notifyLog.publish({
 	name:  "My first email",
 	description:  "Hello world from API",
 	channel:  "payments",
@@ -35,8 +35,8 @@ notifyLog.notifyEvent({
 });
 ```
 
-**Support**
+#### Support
 If you need help, please send an email to hello@notifylog.com.
 
-**Create an account**
+#### Create an account
 To create an account on the NotifyLog platform, visit https://notifylog.com.br.
