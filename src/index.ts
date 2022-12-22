@@ -9,10 +9,10 @@ export class NotifyLog {
 
   async publish(event: {
     name: string;
-    description: string;
     channel: string;
-    icon: string;
     notify: boolean;
+    icon?: string;
+    description?: string;
     tags?: { [key: string]: string | number };
     message?: string;
   }) {
