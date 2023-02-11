@@ -1,12 +1,13 @@
 {
   "name": "notifylog",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A library for sending notifications using the NotifyLog API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "scripts": {
-    "build": "tsc --declaration --emitDeclarationOnly"
+    "build": "tsc --declaration --emitDeclarationOnly",
+    "publish": "npm run build && npm publish"
   },
   "author": "NotifyLog <hello@notifylog.com>",
   "license": "MIT",
@@ -16,8 +17,8 @@
   },
   "homepage": "https://notifylog.com",
   "dependencies": {
-    "axios": "^0.21.0",
-    "@types/node": "^14.14.10"
+    "@types/node": "^14.14.10",
+    "axios": "^0.21.0"
   },
   "devDependencies": {
     "typescript": "^4.2.3"
